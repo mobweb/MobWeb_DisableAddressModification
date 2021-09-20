@@ -1,0 +1,21 @@
+{
+    "name": "mobweb/disableaddressmodification",
+    "description": "Stops a customer from changing, deleting or adding an address in their customer account.",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*",
+        "narf/toolbox": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "MobWeb\\DisableAddressModification\\": "src"
+        }
+    },
+    "version": "1.0.0"
+}

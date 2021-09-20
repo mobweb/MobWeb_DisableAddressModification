@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Louis Bataillard <info@mobweb.ch>
+ * @package    MobWeb_DisableAddressModification
+ * @copyright    Copyright (c) MobWeb GmbH (https://mobweb.ch)
+ */
+-->
+<config>
+    <type name="Magento\Customer\Controller\Address\Edit">
+        <plugin name="mobweb_disableaddressmodification_plugin_magento_customer_controller_address_edit" type="\MobWeb\DisableAddressModification\Plugin\Magento\Customer\Controller\Address\Edit" sortOrder="1" disabled="false" />
+    </type>
+    <type name="Magento\Customer\Controller\Address\Delete">
+        <plugin name="mobweb_disableaddressmodification_plugin_magento_customer_controller_address_delete" type="\MobWeb\DisableAddressModification\Plugin\Magento\Customer\Controller\Address\Delete" sortOrder="1" disabled="false" />
+    </type>
+    <type name="Magento\Customer\Controller\Address\NewAction">
+        <plugin name="mobweb_disableaddressmodification_plugin_magento_customer_controller_address_newaction" type="\MobWeb\DisableAddressModification\Plugin\Magento\Customer\Controller\Address\NewAction" sortOrder="1" disabled="false" />
+    </type>
+</config>
